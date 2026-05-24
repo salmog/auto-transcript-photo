@@ -1,3 +1,17 @@
-*.key
-*.pem
-auto-transcript-photo
+# Python Virtual Environments
+.venv-trans-auto-photo/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# macOS System Files
+.DS_Store
+
+# Downloaded Videos, Images, and Transcripts (Keep GitHub clean)
+strategy_*/
+*.mp4
+*.jpg
+*.txt
